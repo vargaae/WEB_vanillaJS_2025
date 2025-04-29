@@ -73,6 +73,7 @@ This project is especially useful for beginners learning algorithmic patterns us
 
 - Simulates an e-commerce shop’s simplified operations
 - Modern Javascript Application - plain / vanilla JS
+- [Deployed on GithubPages](https://vargaae.github.io/WEB_vanillaJS_2025/)
 
 ### 🚀 Features
 
@@ -113,21 +114,24 @@ HTML 5-CSS 3-JS ES6 - ECMAScript 2018
 
 ### Folder structure
 
-dist/
-├── css/
-│ └── style.css # Styling
-├── img/
-│ └── hero-bg.jpg # Background image for Hero section
-├── js/
-│ └── script.js # Functionality
-── index.html # Main webpage
+- dist/
+- ├── css/
+- │ └── style.css # Styling
+- ├── img/
+- │ └── hero-bg.jpg # Background image for Hero section
+- ├── js/
+- │ └── script.js # Functionality
+- ├── index.html # Main webpage for deploy
+- ── index.html # Main webpage
+- ── thankyou.html # Successful order page
+- ── package.json
 
-### Files Included
+### Files Included - Retro version with ready stock and discount management
 
-- indexx.html - Retro version with ready stock and discount management
+- indexx.html
 - appx.js in js folder
 - stylex.css in css folder
-- package.json
+- [Deployed on GithubPages](https://vargaae.github.io/organic-shop-project-js/)
 
 ## 🚀 Running the App
 
