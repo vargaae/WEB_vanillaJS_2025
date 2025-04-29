@@ -78,7 +78,7 @@ function hanyFagymentesNapVolt(tomb) {
 }
 
 // 7. Minimum és maximum kiválasztás tétele
-function extremNapok(tomb) {
+function szelsoHomersekletek(tomb) {
   let leghidegebbNap = 0;
   let legmelegebbNap = 0;
   for (let i = 0; i < tomb.length; i++) {
@@ -125,4 +125,4 @@ console.log(
     : "Nem volt fagymentes nap."
 );
 console.log("\n7.");
-console.log(extremNapok(Januar));
+console.log(szelsoHomersekletek(Januar));
