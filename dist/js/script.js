@@ -107,6 +107,8 @@ async function fetchProducts() {
     .then((data) => {
       products = data.products;
     })
+
+    let response = 
     .catch((error) => console.error(error));
 
   renderProducts(products);
