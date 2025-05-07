@@ -67,7 +67,34 @@ This project is especially useful for beginners learning algorithmic patterns us
 - januar.js
 - Description in Hungarian: januar.pdf
 
-## 2. Vanilla JS E-commerce Application
+## 2. Hegyek
+
+This JavaScript project demonstrates the application of classic algorithmic patterns (known as "nevezetes programozási tételek" in Hungarian) through the analysis of fields.
+
+---
+
+## 🚀 Running the Script
+
+Simply run the script in any modern JavaScript environment (Node.js or browser console):
+
+```bash
+node hegyek.js
+```
+
+---
+
+## 📚 Educational Purpose
+
+This project is especially useful for beginners learning algorithmic patterns using JavaScript in a practical and real-world context.
+
+---
+
+### Files Included
+
+- hegyek.js
+- Description in Hungarian: hegyek.pdf
+
+## 3. Vanilla JS E-commerce Application
 
 ## APPLICATION
 
