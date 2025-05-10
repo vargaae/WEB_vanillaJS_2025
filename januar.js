@@ -1,4 +1,4 @@
-var Januar = new Array();
+var Januar = new Array(31);
 
 // 1. Feltöltés
 function feltoltJanuar(tomb, min, max) {
@@ -47,11 +47,11 @@ function elsoFagymentesNap(tomb) {
   let fagymentesNapIndex = 0;
   while (i < tomb.length && tomb[i] < 0) {
     i++;
-    if (i < tomb.length) {
-      fagymentesNapIndex = i;
-    } else {
-      fagymentesNapIndex = -1;
-    }
+  }
+  if (i < tomb.length) {
+    fagymentesNapIndex = i;
+  } else {
+    fagymentesNapIndex = -1;
   }
   return fagymentesNapIndex;
 }
@@ -82,10 +82,10 @@ function szelsoHomersekletek(tomb) {
   let leghidegebbNap = 0;
   let legmelegebbNap = 0;
   for (let i = 0; i < tomb.length; i++) {
-    if (tomb[i] < leghidegebbNap) {
+    if (tomb[i] < tomb[leghidegebbNap]) {
       leghidegebbNap = i;
     }
-    if (tomb[i] > legmelegebbNap) {
+    if (tomb[i] > tomb[legmelegebbNap]) {
       legmelegebbNap = i;
     }
   }
@@ -96,9 +96,11 @@ function szelsoHomersekletek(tomb) {
   } Celsius fok`;
 }
 
-console.log("1.");
+console.log(
+  `1. Január tömb létrehozva - hossza: ${Januar.length}, napi középhőmérséklet értékeivel feltöltve.`
+);
 feltoltJanuar(Januar, -10, 3);
-console.log("\n2.");
+console.log("\n2. Január tömb kiiratása");
 kiirHomersekletek(Januar);
 console.log("\n3.");
 atlagHomerseklet(Januar);
